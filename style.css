@@ -8,6 +8,8 @@ html, body {
     height: 100%;
 }
 
+
+
 body {
     background: #151e31;
     display: block;
@@ -57,7 +59,17 @@ p {
     line-height: 24px;
     letter-spacing: .1em;
     text-align: left;  
-    text-indent: 1em;
+}
+
+.sourcep {
+    font-family: "Railway", Arial, sans-serif;
+    color: #dedfca;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1em;
+    text-align: left;  
+    text-indent: 3em;
 }
 
 figcaption {
@@ -139,6 +151,14 @@ figcaption {
     padding-top: 35px;
     padding-bottom: 35px;
     margin-bottom: 35px;
+}
+
+.container {
+    width: 800px;
+    border: 10px solid #d53c73;
+    padding: 50px;
+    margin: auto;
+
 }
 
 /* CODE REFERENCES 
